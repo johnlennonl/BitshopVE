@@ -1,0 +1,60 @@
+
+// PAGINA DE AYUDA
+/* PAGINA DE AYUDA*/
+
+
+.terminos {
+    font-weight: bold;
+  }
+  
+  em {
+    color: $color-fuentes;
+  
+    &:hover {
+      color: $color-fuentesParrafo;
+    }
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  u {
+    cursor: pointer;
+  
+    &:hover {
+      color: $color-fuentes;
+    }
+  }
+  
+  .borderForm {
+    border-radius: 8px;
+  }
+  
+  .metodosPago {
+    font-weight: bold;
+    color: #d7d2cc;
+  
+    &:hover {
+      color: $color-fuentes;
+    }
+  }
+  
+  .cardMapa {
+    @include fondoCard;
+  }
+  
+  .footerP {
+    color: $color-fuentesParrafo;
+  
+    &:hover {
+      color: $color-fuentes;
+    }
+  }
+  
+  .icoAyuda {
+    width: 20px;
+    cursor: pointer;
+    animation: float 2s linear infinite;
+  }
+  

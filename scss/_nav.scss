@@ -1,0 +1,27 @@
+/* NAV */
+
+/* Logo del Navbar*/
+
+.logoNav {
+    width: 150px;
+  }
+  
+  .hoverNav {
+    color: rgb(209, 209, 209);
+  
+    &:hover {
+      color: #afa14b;
+    }
+  }
+  
+  .navbarcss {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .botonNav {
+    color: $color-fuentes;
+    background-color: #7474746f;
+  }
+  

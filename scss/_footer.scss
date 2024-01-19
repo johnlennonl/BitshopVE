@@ -1,0 +1,19 @@
+/* FOOTER */
+
+a {
+    @include anclas;
+  }
+  
+  p {
+    font-size: $font-sizeParrafos;
+    color: $color-fuentesParrafo;
+  }
+  
+  .textDecoracion {
+    color: aliceblue;
+    color: $color-fuentesParrafo;
+  }
+  
+  hr {
+    color: #efefef;
+  }

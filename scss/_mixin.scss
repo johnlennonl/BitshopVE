@@ -1,0 +1,10 @@
+// Mixin 
+
+@mixin anclas {
+    text-decoration: none;
+    color: $color-fuentesParrafo;
+}
+
+@mixin fondoCard {
+    background-color: transparent;
+}

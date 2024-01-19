@@ -1,0 +1,158 @@
+/* C A R D S */
+
+/* card main */
+
+.cardMain {
+    border-radius: 16px;
+    border: none;
+    @include fondoCard;
+    cursor: pointer;
+  }
+  
+
+  
+  
+  .subtitulo {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .cardTitulo {
+    font-size: 2rem;
+    text-align: center;
+    color: $color-fuentesParrafo;
+    cursor: pointer;
+  
+    &:hover {
+      color: #2c2c2c;
+    }
+  }
+  
+  .iconosText {
+    font-style: none;
+  }
+  
+  /* TEXTOS DE LA CARD LO MAS VENDIDO*/
+  
+  .cardName {
+    font-size: 1.2rem;
+    color: $color-fuentes;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+  
+  .cardDescripcion {
+    font-size: 1.1rem;
+    color: $color-fuentesParrafo;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+  
+  .cardPrecio {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font-sizeParrafos;
+    color: $color-fuentes;
+    cursor: pointer;
+  
+    &:hover {
+      color: #efefef;
+    }
+  }
+  
+  .imgShock {
+    cursor: pointer;
+  }
+  
+  .cardName:hover {
+    color: #efefef;
+  }
+  
+
+  .cardShock {
+    width: 19rem;
+    margin: 6px;
+    @include fondoCard;
+    border: none;
+    transition: all 0.5s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .cardShockh {
+    width: 19rem;
+    margin: 5px;
+    @include fondoCard;
+    border: none;
+    transition: all 0.5s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .imgShock {
+    border-radius: 10px;
+  }
+  
+  /* BOTONES*/
+
+.bottonCard {
+    background-color: #1c1c1c;
+    border: none;
+  
+    &:hover {
+      background-color: #efefef;
+      color: #1c1c1c;
+    }
+  }
+  
+  .btnMaracaibo {
+    color: #d7d2cc;
+    font-weight: bold;
+  
+    &:hover {
+      color: #1c1c1c;
+      font-weight: bold;
+    }
+  }
+  
+  /* Parrafo de Historias Relacionadas*/
+  
+  .pHistorias {
+    color:$color-fuentesParrafo;
+    text-align: center;
+  
+    &:hover {
+      color: $color-fuentes;
+    }
+  }
+
+  /* BOTON DEL ACOORDEON*/
+
+.texBtn {
+    color: $color-fuentesParrafo;
+    font-weight: bold;
+  
+    &:hover {
+      color: #afa14b;
+    }
+  }
+  
+
+ 
+
+  @keyframes float {
+    0%, 100% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(-0.1rem);
+    }
+    
+    
+}
