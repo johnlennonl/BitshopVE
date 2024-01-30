@@ -1,10 +1,292 @@
 /* Import*/
-@import "variables";
-@import "mixin";
-@import "general";
-@import "nav";
-@import "card";
-@import "logotipos";
-@import "footer";
-@import "ayuda"
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+/* General*/
+body {
+  background: #304352; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+/* NAV */
+/* Logo del Navbar*/
+.logoNav {
+  width: 150px;
+}
+
+.hoverNav {
+  color: rgb(209, 209, 209);
+}
+
+.hoverNav:hover {
+  color: #afa14b;
+}
+
+.navbarcss {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.botonNav {
+  color: #2c2c2c;
+  background-color: rgba(116, 116, 116, 0.4352941176);
+}
+
+/* C A R D S */
+/* card main */
+.cardMain {
+  border-radius: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.subtitulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardTitulo {
+  font-size: 2rem;
+  text-align: center;
+  color: #efefef;
+  cursor: pointer;
+}
+
+.cardTitulo:hover {
+  color: #2c2c2c;
+}
+
+.iconosText {
+  font-style: none;
+}
+
+/* TEXTOS DE LA CARD LO MAS VENDIDO*/
+.cardName {
+  font-size: 1.2rem;
+  color: #2c2c2c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.cardDescripcion {
+  font-size: 1.1rem;
+  color: #efefef;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.cardPrecio {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #2c2c2c;
+  cursor: pointer;
+}
+
+.cardPrecio:hover {
+  color: #efefef;
+}
+
+.imgShock {
+  cursor: pointer;
+}
+
+.cardName:hover {
+  color: #efefef;
+}
+
+.cardShock {
+  width: 19rem;
+  margin: 6px;
+  background-color: transparent;
+  border: none;
+  transition: all 0.5s;
+}
+
+.cardShock:hover {
+  transform: scale(1.1);
+}
+
+.cardShockh {
+  width: 19rem;
+  margin: 5px;
+  background-color: transparent;
+  border: none;
+  transition: all 0.5s;
+}
+
+.cardShockh:hover {
+  transform: scale(1.1);
+}
+
+.imgShock {
+  border-radius: 10px;
+}
+
+/* BOTONES*/
+.bottonCard {
+  background-color: #1c1c1c;
+  border: none;
+}
+
+.bottonCard:hover {
+  background-color: #efefef;
+  color: #1c1c1c;
+}
+
+.btnMaracaibo {
+  color: #d7d2cc;
+  font-weight: bold;
+}
+
+.btnMaracaibo:hover {
+  color: #1c1c1c;
+  font-weight: bold;
+}
+
+/* Parrafo de Historias Relacionadas*/
+.pHistorias {
+  color: #efefef;
+  text-align: center;
+}
+
+.pHistorias:hover {
+  color: #2c2c2c;
+}
+
+/* BOTON DEL ACOORDEON*/
+.texBtn {
+  color: #efefef;
+  font-weight: bold;
+}
+
+.texBtn:hover {
+  color: #afa14b;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-0.1rem);
+  }
+}
+/* SUPLEMENTOS*/
+.logoMuscletech {
+  width: 150px;
+  cursor: pointer;
+}
+
+.logoBsn {
+  width: 150px;
+  cursor: pointer;
+}
+
+.logoC4 {
+  width: 200px;
+  cursor: pointer;
+}
+
+/* LOGO NIKE */
+.logoNike {
+  width: 150px;
+  cursor: pointer;
+}
+
+.logoNewbalance {
+  width: 150px;
+  cursor: pointer;
+}
+
+/* Logo de WhatsApp*/
+.logoContacto {
+  width: 70px;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  position: fixed;
+}
+
+/* FOOTER */
+a {
+  text-decoration: none;
+  color: #efefef;
+}
+
+p {
+  font-size: 16px;
+  color: #efefef;
+}
+
+.textDecoracion {
+  color: aliceblue;
+  color: #efefef;
+}
+
+hr {
+  color: #efefef;
+}
+
+/* PAGINA DE AYUDA*/
+.terminos {
+  font-weight: bold;
+}
+
+em {
+  color: #2c2c2c;
+}
+
+em:hover {
+  color: #efefef;
+}
+
+label {
+  font-weight: bold;
+}
+
+u {
+  cursor: pointer;
+}
+
+u:hover {
+  color: #2c2c2c;
+}
+
+.borderForm {
+  border-radius: 8px;
+}
+
+.metodosPago {
+  font-weight: bold;
+  color: #d7d2cc;
+}
+
+.metodosPago:hover {
+  color: #2c2c2c;
+}
+
+.cardMapa {
+  background-color: transparent;
+}
+
+.footerP {
+  color: #efefef;
+}
+
+.footerP:hover {
+  color: #2c2c2c;
+}
+
+.icoAyuda {
+  width: 20px;
+  cursor: pointer;
+  animation: float 2s linear infinite;
+}
+
+
+
+/*# sourceMappingURL=estilo.scss.map */
